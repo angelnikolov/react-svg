@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	background-color: #ddd;
+}
+
+#container {
+	border: 0.05rem dashed #777;
+	margin: auto;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 90vw;
+	max-height: 50.625vw;
+	background-color: white;
+}
