@@ -85,7 +85,6 @@ class App extends React.Component<IAppProps, IAppState> {
   };
 
   removeDataPoint = () => {
-    debugger;
     if (this.state.activeDataPoints - 1!== 2) {
       this.setState({
         activeDataPoints: this.state.activeDataPoints - 1
@@ -93,7 +92,6 @@ class App extends React.Component<IAppProps, IAppState> {
     }
   };
   addDataPoint = () => {
-    debugger;
     if (this.state.activeDataPoints + 1 <= this.state.data.length) {
       this.setState({
         activeDataPoints: this.state.activeDataPoints + 1

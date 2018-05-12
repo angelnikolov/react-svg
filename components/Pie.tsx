@@ -140,9 +140,9 @@ const Pie: React.StatelessComponent<IPieProps> = props => {
         y={(viewBoxHeight - size) / 2}
       >
         {svgData.map((d, i) => {
-          console.log(d.value);
           return (
-            <React.Fragment>
+            <React.Fragment
+                key={"label" + i}>
               <line
                 {...getHorizontalLineCoordinates(d.x1, d.x2, d.center)}
                 {...getVerticalLineCoordinates(d.y2, d.y1)}

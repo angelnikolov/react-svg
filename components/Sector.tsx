@@ -12,11 +12,6 @@ const Sector: React.StatelessComponent<ISectorProps> = props => {
   return (
     <path
       d={path}
-      style={{
-        transitionProperty: "all",
-        transitionTimingFunction: "ease-out",
-        transitionDuration: "0.25s",
-      }}
       fill={fill}
       strokeWidth={strokeWidth}
       strokeLinejoin={strokeLinejoin}
